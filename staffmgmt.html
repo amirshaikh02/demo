@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="index.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="abc13">
+   <div class="abc14"><h1><center></br><strong>STAFF MANAGEMENT</strong></center></h1></div>
+   <div class="abc16">
+     <div class="abc17">
+       <form>
+         <tr>
+         <td><strong>Enter State:</strong></td>
+         <td><input type="text" name="state"></td>
+         </tr>
+         <br/><br/>
+         <tr>
+         <td><strong>Gender:</strong></td>
+         <input type="radio" name="gender" value="male" checked>Male
+         <input type="radio" name="gender" value="female">Female
+         </tr>
+         <br/><br/>
+         <tr>
+         <td><strong>Enter Address:</strong></td>
+         <td><textarea name="address" rows="5" cols="30" size="20"></textarea></td>
+         </tr>
+         <br/><br/><br/><br/>
+         <button type="button" class="btn btn-outline-danger btn-sm">INSERT STAFF</button>
+         <button type="button" class="btn btn-outline-danger btn-sm">UPDATE STAFF</button>
+         <button type="button" class="btn btn-outline-danger btn-sm">DELETE STAFF</button>
+         <button type="button" class="btn btn-outline-danger btn-sm">VIEW STAFFS</button>
+       </form>
+     </div>
+       <form>
+         <tr>
+         <td><strong>Staff ID:</strong></td>
+         <td><input type="text" name="staffid"></td>
+         </tr>
+         <br/><br/>
+         <tr>
+         <td><strong>Staff Full Name:</strong></td>
+         <td><input type="text" name="stafffullname" autofocus></td>
+         </tr>
+         <br/><br/>
+         <tr>
+         <td><strong>Father Full Name:</strong></td>
+         <td><input type="text" name="fatherfullname"></td>
+         </tr>
+         <br/><br/>
+         <tr>
+         <td><strong>Mother Full Name:</strong></td>
+         <td><input type="text" name="motherfullname"></td>
+         </tr>
+         <br/><br/>
+         <tr>
+         <td><strong>Jioned Date:</strong></td>
+         <td><input type="date" name="joineddate"></td>
+         </tr>
+         <br/><br/>
+         <tr>
+         <td><strong>Education:</strong></td>
+         <td><input type="text" name="education"></td>
+         </tr>
+         <br/><br/>
+         <tr>
+         <td><strong>Select Departments:</strong></td>
+         <td><select name="Departments">
+         <option value="Computer">Computer</option>
+         <option value="Mechanical">Mechanical</option>
+         <option value="Civil">Civil</option>
+         <option value="Electrical">Electrical</option>
+         <option value="Electronic">Electronic</option>
+         </select></td>
+         </tr>
+         <br/><br/>
+         <tr>
+         <td><strong>Select Caste:</strong></td>
+         <td><select name="caste">
+         <option value="OPEN">OPEN</option>
+         <option value="OBC">OBC</option>
+         <option value="SBC">SBC</option>
+         <option value="SC">SC</option>
+         <option value="VJNT">VJNT</option>
+         </select></td>
+         </tr>
+         <br/><br/>
+         <tr>
+         <td><strong>Staff Type:</strong></td>
+         <td><select name="staff">
+         <option value="staff">STAFF</option>
+         <option value="hod">HOD</option>
+         <option value="principle">PRINCIPLE</option>
+         </select></td>
+         </tr>
+         <br/><br/>
+         <tr>
+         <td><strong>Enter DOB:</strong></td>
+         <td><input type="date" name="dob"></td>
+         </tr>
+         <br/><br/>
+         <tr>
+         <td><strong>Mobile No:</strong></td>
+         <td><input type="mobilenumber" name="mobileno"></td>
+         </tr>
+         <br/><br/>
+         <tr>
+         <td><strong>Email-id:</strong></td>
+         <td><input type="email" name="emailid"></td>
+         </tr>
+         <br/><br/>
+         <tr>
+         <td><strong>Enter District:</strong></td>
+         <td><input type="text" name="district"></td>
+         </tr>
+         <br/><br/>
+       </form>
+     </div>
+   <div class="abc15">
+        <a href="studmgmt.html" style="text-decoration:none">
+        <center><button type="button" class="btn btn-outline-success btn-block">Student Management</button></a></center>
+        </br>
+        </br>
+        </br>
+        <center><button type="button" class="btn btn-primary disabled btn-block">Staff Management</button></center>
+        </br>
+        </br>
+        </br>
+        <a href="exammgmt.html" style="text-decoration:none">
+        <center><button type="button" class="btn btn-outline-success btn-block">Exam Management</button></a></center>
+        </br>
+        </br>
+        </br>
+        <a href="Feemgmt.html" style="text-decoration:none">
+        <center><button type="button" class="btn btn-outline-success  btn-block">Fee Management</button></a></center>
+        </br>
+        </br>
+        </br>
+        <a href="Attendance.html" style="text-decoration:none">
+        <center><button type="button" class="btn btn-outline-success btn-block">Attendance Management</button></a></center>
+        </br>
+        </br>
+        </br>
+        <a href="login.html" style="text-decoration:none">
+        <center><button type="button" class="btn btn-outline-success btn-block">Login</button></a></center>
+        </br>
+        </br>
+        </br>
+        <a href="index1.html" style="text-decoration:none">
+        <center><button type="button" class="btn btn-outline-success btn-block">Home</button></a></center>
+     </div>
+</div>
+</body>
+</html>

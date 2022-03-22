@@ -1,0 +1,219 @@
+@charset "utf-8";
+.index {
+}
+    .abc1     /*title div of home page*/
+{
+	width:1350px;
+	height:100px;
+	background-color:#FC6;
+}
+	
+	.abc     /*main div of home page*/
+{
+	width:1350px;
+	height:700px;
+	background-color:#0F0;
+}
+	.abc2    /*menu div of home page*/
+{
+	width:300px;
+	height:700px;
+	float:left;
+	background-color:#FF6;
+}
+	.abc3    /*image div of home page*/
+{
+	width:1050px;
+	height:700px;
+	float:left;
+	background-color:#F66;
+}
+	.abc4     /*main div of student management*/
+{
+	width:1350px;
+	height:800px;
+	background-color:#FF9;
+}
+    .abc5    /*title div of student management*/
+{
+	width:1350px;
+	height:100px;
+	background-color:#C6F;
+}
+    .abc6   /*menu div of student management*/
+{
+	width:300px;
+	height:700px;
+	float:left;
+	background-color:#9FF;
+}	
+	.abc7    /*image div of student management*/
+{
+	width:1050px;
+	height:700px;
+	float:left;
+	background-color:#CF6;
+}
+	.abc8    /*address div of student management*/
+{
+	width:525px;
+	height:700px;
+	float:right;
+	background-color:#FF3;
+}
+    .abc9     /*main div of login page*/
+{
+	width:1350px;
+	height:800px;
+	background-color:#F9F;
+}			
+    .abc10   /*title div of login page*/
+{
+	width:1350px;
+	height:100px;
+	background-color:#FCC;
+}
+    .abc11   /*menu div of login page*/
+{
+	width:300px;
+	height:700px;
+	float:left;
+	background-color:#CCF;
+}		
+    .abc12    /*image div of login page*/
+{
+	width:1050px;
+	height:700px;
+	float:left;
+	background-color:#FCF;
+}
+	.abc13    /*main div of staff management*/
+{
+	width:1350px;
+	height:800px;
+	background-color:#FF9
+}
+   .abc14     /*title div of staff management*/
+{
+	width:1350px;
+	height:100px;
+	background-color:#F00;
+}
+	.abc15   /*menu div of staff management*/
+{
+	width:300px;
+	height:700px;
+	background-color:#2A0000;  
+}    
+   .abc16   /*image div staff management*/ 
+{
+	width:1050px;
+	height:700px;
+	float:right;
+	background-color:#FF9;
+}   
+   .abc17    /*address div of staff management*/
+{
+	width:525px;
+	height:700px;
+	float:right;
+	background-color:#
+}    
+   .abc18     /*main div of exam management*/
+{
+	width:1350px;
+	height:800px;
+	background-color:#CC3;
+}			                          
+   .abc19     /*title div of exam management*/
+{
+	width:1350px;
+	height:100px;
+	background-color:#F00;
+}                            
+    .abc20   /*menu div of exam management*/
+{
+	width:300px;
+	height:700px;
+	background-color:#2A0000;  
+}
+    .abc21   /*image div exam management*/ 
+{
+	width:1050px;
+	height:700px;
+	float:right;
+	background-color:#CC3;
+}  
+/**********/
+
+  	.abc22     /*main div of Attendance management*/
+{
+	width:1350px;
+	height:700px;
+	background-color:#FF9;
+}
+   .abc23     /*title div of Attendance management*/
+{
+	width:1350px;
+	height:100px;
+	background-color:#6F0;
+}        
+    
+	 .abc24   /*menu div of Attendance management*/
+{
+	width:300px;
+	height:700px;
+	float:left;
+	background-color:#9FF;
+}	
+   .abc25    /*image div of student management*/
+{
+	width:1050px;
+	height:700px;
+	float:left;
+	background-color:#CF6;
+}
+	.abc26    /*address div of student management*/
+{
+	width:525px;
+	height:700px;
+	float:right;
+	background-color:#FF3;
+}
+/************/
+
+  	.abc27     /*main div of fee management*/
+{
+	width:1350px;
+	height:700px;
+	background-color:#FF9;
+}
+   .abc28     /*title div of fee management*/
+{
+	width:1350px;
+	height:100px;
+	background-color:#6F0;
+}        
+    
+	 .abc29   /*menu div of fee management*/
+{
+	width:300px;
+	height:700px;
+	float:left;
+	background-color:#7FFFFF;
+}	
+   .abc30    /*image div of fee management*/
+{
+	width:1050px;
+	height:700px;
+	float:left;
+	background-color:#CF6;
+}
+	.abc31    /*address div of student management*/
+{
+	width:525px;
+	height:700px;
+	float:right;
+	background-color:#FF3;
+}
+	
